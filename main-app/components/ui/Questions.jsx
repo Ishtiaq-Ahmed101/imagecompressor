@@ -85,16 +85,16 @@ const Questions = () => {
             aria-labelledby="options-menu"
           >
             <p>
-              Image compression is the process of reducing the file size of
+             'Image compression is the process of reducing the file size of
               images while maintaining an acceptable level of quality. It's
               crucial for websites because smaller image files load faster,
               leading to improved user experience and SEO rankings.
               Faster-loading pages contribute positively to user satisfaction
-              and search engine rankings.
+              and search engine rankings.'
             </p>
             <p>
-              To optimize your website's performance, consider using an online
-              image compressor tool like [imagecompressor.website].
+              'To optimize your website's performance, consider using an online
+              image compressor tool like [imagecompressor.website].'
             </p>
           </div>
         </div>

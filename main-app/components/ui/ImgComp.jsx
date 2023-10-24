@@ -1,3 +1,4 @@
+import Image from "next/image";
 function ImgComp({handleDelete, fileList, file, index}) {
     return ( 
         <>
@@ -22,7 +23,7 @@ function ImgComp({handleDelete, fileList, file, index}) {
             ).toFixed(1)}
             %
           </h1>
-          <img
+          <Image
             className="sm:h-[120px] sm:w-[180px] h-[100px] p-1 w-[140px] rounded-md"
             src={URL.createObjectURL(file)}
             alt={file.name}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 function ImgReady({fileList, handleDelete}) {
     return ( 
         <div className="border border-dashed slef-center border-white sm:w-[650px]  md:w-[800px]  sm:h-fit sm:py-7  w-[100vw] rounded-md flex  justify-center items-center py-3 ">
@@ -16,7 +17,7 @@ function ImgReady({fileList, handleDelete}) {
                             >
                               &times;
                             </button>
-                            <img
+                            <Image
                               className="sm:h-[120px] sm:w-[180px] h-[100px] w-[140px] rounded-md"
                               src={URL.createObjectURL(file)}
                               alt={file.name}

@@ -193,7 +193,7 @@ const Hero = ()=>{
                 <div className="border border-dashed self-center border-white sm:w-[650px]  md:w-[800px] w-[100vw] sm:h-fit h-fit sm:py-4 rounded-md flex  justify-center items-center py-2">
                   <div className="flex flex-wrap justify-center">
                     {compressedImgList.map((file, index) => (
-                     <ImgComp file={file} index={index} handleDelete={handleDelete} fileList={fileList}/>
+                     <ImgComp file={file} index={index} key={index} handleDelete={handleDelete} fileList={fileList}/>
                     ))}
                   </div>
                 </div>
