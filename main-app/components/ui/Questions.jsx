@@ -85,16 +85,16 @@ const Questions = () => {
             aria-labelledby="options-menu"
           >
             <p>
-             'Image compression is the process of reducing the file size of
-              images while maintaining an acceptable level of quality. It's
+             Image compression is the process of reducing the file size of
+              images while maintaining an acceptable level of quality. It&apos;s
               crucial for websites because smaller image files load faster,
               leading to improved user experience and SEO rankings.
               Faster-loading pages contribute positively to user satisfaction
-              and search engine rankings.'
+              and search engine rankings.&apos;
             </p>
             <p>
-              'To optimize your website's performance, consider using an online
-              image compressor tool like [imagecompressor.website].'
+              To optimize your website&apos;s performance, consider using an online
+              image compressor tool like [imagecompressor.website].&apos;
             </p>
           </div>
         </div>
@@ -139,12 +139,12 @@ const Questions = () => {
             <p>
               Image compression significantly impacts website speed and SEO.
               Compressed images reduce the page load time, which is a critical
-              factor in Google's ranking algorithm. Faster websites not only
+              factor in Google&apos;s ranking algorithm. Faster websites not only
               rank higher but also retain visitors better, resulting in improved
               search engine visibility and user engagement.
             </p>
             <p>
-              To enhance your website's speed and SEO, consider using an online
+              To enhance your website&apos;s speed and SEO, consider using an online
               image optimizer like imagecompressor.website.
             </p>
           </div>
@@ -241,7 +241,7 @@ const Questions = () => {
           >
             <p>
               Regularly updating and optimizing images is essential for
-              maintaining a high-performance website. It's a good practice to
+              maintaining a high-performance website. It&apos;s a good practice to
               optimize images whenever you add new content or make significant
               changes. Additionally, conduct periodic audits to ensure older
               images are still optimized to meet current standards, which can
@@ -292,7 +292,7 @@ const Questions = () => {
           >
             <p>
               Lossless compression retains all the original data while reducing
-              file size. It's used when preserving data integrity is critical,
+              file size. It&apos;s used when preserving data integrity is critical,
               such as in text files or medical records. Lossy compression, on
               the other hand, reduces file size by discarding some data, often
               used for multimedia like images and audio, where some quality loss

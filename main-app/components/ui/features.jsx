@@ -11,9 +11,9 @@ function Features() {
           <h1 className="text-white sm:text-xl font-medium my-3">
           Effortless Image Optimization
           </h1>
-          <p className="text-dimWhite sm:text-sm text-sm sm:w-[300px] w-[300px]">&apos;
-          Our cutting-edge technology ensures your images are optimized for the web, reducing load times and improving your website's performance.&apos;
-          </p>
+          <p className="text-dimWhite sm:text-sm text-sm sm:w-[300px] w-[300px]">
+  Our cutting-edge technology ensures your images are optimized for the web, reducing load times and improving your website&apos;s performance.&apos;
+</p>
 
         </div>
 

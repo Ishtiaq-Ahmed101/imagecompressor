@@ -22,6 +22,8 @@ function ImgReady({fileList, handleDelete}) {
                               src={URL.createObjectURL(file)}
                               alt={file.name}
                               key={index}
+                              width={0}
+                              height={0}
                             />
                             <h3 className="text-dimWhite flex flex-wrap w-[150px] overflow-hidden text-ellipsis ">
                               {file.name}

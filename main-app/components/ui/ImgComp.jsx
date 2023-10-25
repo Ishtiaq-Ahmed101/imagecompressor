@@ -28,6 +28,8 @@ function ImgComp({handleDelete, fileList, file, index}) {
             src={URL.createObjectURL(file)}
             alt={file.name}
             key={index}
+            width={0}
+            height={0}
           />
           <h3 className="text-dimWhite flex flex-wrap  sm:w-[142px] w-[142px] overflow-hidden">
             {file.name}
