@@ -1,13 +1,17 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
-import Head from 'next/head' // Import the Head component
+import Head from 'next/head'
 import './globals.css'
+import { title } from 'process'
 
 const poppins = Poppins({ subsets: ['latin'], weight:["100", "200", "300", "400", "500", "600", "700", "800", "900"]})
 
 export const metadata: Metadata = {
   title: 'Compress And Resize Images, imagecompressor for free',
   description: 'Compress and resize images easily with our online image compression and resizing tool. Reduce file sizes for faster loading web pages for free And you can also Resize the images for free. You can upload more than 100 images and compress images with just one click.',
+  keywords:"image compression, image resizing, online tool",
+  
+  
 }
 
 export default function RootLayout({
@@ -15,9 +19,26 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const data = 
+  ` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D363E2EN97');`
+
   return (
     <html lang="en">
+      <head>
+      <meta property="og:title" content="Image Compressor and Resizer"></meta>
+      <meta property="og:description" content="Compress and resize images easily with our online image compression and resizing tool. Reduce file sizes for faster loading web pages."></meta>
+      <link rel="canonical" href="https://imagecompressor.website"></link>
+
+      </head>
+      
       <body className={poppins.className}>{children}</body>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-D363E2EN97"></script>
+      <script>{data}</script>
+
     </html>
   )
 }
